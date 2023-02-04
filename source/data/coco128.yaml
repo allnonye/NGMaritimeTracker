@@ -1,0 +1,7 @@
+train: /content/dataset/train/images 
+val: /content/dataset/test/images
+
+
+# Classes
+nc: 4  # number of classes
+names: ['carrier', 'warship', 'civilian', 'submarine']
