@@ -5,12 +5,22 @@
 
 [MTech Competition Website](http://mtech.umd.edu/ng/challenges/northrop-grumman-mission-systems-innovation-challenge-multiple-maritime-target-optical-tracking.html
  "Competition Website") 
+ 
+ <table>
+  <tr>
+    <td> <img src="cert.png"  alt="1"  height=240></td>
+    <td><img src="images/fleet5.jpg" alt="2"  height=240></td>
+    <td><img src="images/iou1.jpg" alt="2"  height=240></td>
+   </tr> 
+</table>
+
+<!---
 <p align="left">
-<img src="cert.png"/width=300 height=240>
+<img src="cert.png"/ height=240>
 <img src="images/fleet5.jpg"/height=240>
 <img src="images/iou1.jpg"/height=240>
 </p>
- 
+ --->
 Competed in a Northrop Grumman Competition sponsored and hosted at UMD and placed 1/15 teams of 1-4. Developed a Python/MATLAB application to detect, classify, and enumerate a variety of maritime vessels in real-time. More specifically, the application kept an accurate frame-by-frame catalogue of such vessels, and categorized them into civilians, warships, aircraft carriers, and submarines each with a numerical identifier. 
 
 A csv file was also generated for accuracy checking. The competition spanned a 6 week period, and mentor meetings were biweekly. Research on object detection and utilization of open source machine learning software such as YOLOv5 and Google Colab were used to supplement project success. Custom training and testing data was gathered from Google and Bing Images. 
@@ -18,6 +28,22 @@ A csv file was also generated for accuracy checking. The competition spanned a 6
 Research was also needed on tracking, as inaccuracies/frame drops within the models needed reconcilation. Originally planed to use Kalman Filter (linear quadratic estimation) for filling in prediction frame gaps. Settled with naive Eucledian distance "last seen" data structure due to time constraints. 
 
 ## Demos
+
+<table>
+  <tr>
+    <td> <img src="images/gifs/sailing0.gif"  alt="1" width=500 height=285></td>
+    <td><img src="images/gifs/sailing1.gif" alt="2" width=500 height=285></td>
+   </tr> 
+  <tr>
+      <td><img src="images/gifs/models0.gif" alt="3" width=500 height=285></td>
+      <td><img src="images/gifs/models1.gif" align="right" alt="4" width=500 height=285></td>
+  </tr>
+   <td> <img src="images/gifs/models2.gif"  alt="1" width=500 height=285></td>
+    <td><img src="images/gifs/warships.gif" alt="2" width=500 height=285></td>
+   </tr> 
+</table>
+
+<!---
 <p float="left">
   <img src="images/gifs/sailing0.gif"/width=500 height=285>
   <img src="images/gifs/sailing1.gif"/width=500 height=285>
@@ -26,7 +52,7 @@ Research was also needed on tracking, as inaccuracies/frame drops within the mod
   <img src="images/gifs/models2.gif"/width=500 height=285>
   <img src="images/gifs/warships.gif"/width=500 height=285>
 </p>
-
+--->
 ## Screenshots
 <p float="left">
   <img src="images/screenshots/screenshot0.png"/width=333 height=189>
